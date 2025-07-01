@@ -1,4 +1,3 @@
-# skf-interview
 # SKF Products Assistant
 
 ##  Overview
@@ -52,7 +51,7 @@ Ensure `local.settings.json` includes:
 Place your product data in `/FunctionApp/Data/`, e.g.:
 
 - `6205.json`
-- `6025N.json`
+- `6025 N.json`
 
 ### 2.  Frontend (React)
 
@@ -70,7 +69,6 @@ This opens your React app at:
 1. Go to `http://localhost:3000`
 2. Try asking:
    - _“What is the width of 6205?”_
-   - _“Compare 6205 and 6025 N in logistics.”_
 3. The app will:
    - Send the query to the backend
    - Backend extracts product names
@@ -81,5 +79,5 @@ This opens your React app at:
 
 ##  Deployment (Optional)
 
-- Backend: Deploy `FunctionApp` to Azure Functions
-- Frontend: Deploy `SKFClient` to Azure Static Webinterview
+- Backend: Deploy `SKFInterviewOpenAI` to Azure Functions
+- Frontend: Deploy `SKF-Client` to Azure Static Web
